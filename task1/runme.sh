@@ -7,6 +7,8 @@ make
 
 echo "Запуск тестов..." > result.txt
 
+echo "Генерируем тестовые файлы..."
+
 ./generate_test_file
 
 echo "===Test 1: Создание спарс файла B из A===" >> result.txt
