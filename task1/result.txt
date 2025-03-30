@@ -1,0 +1,19 @@
+Запуск тестов...
+===Test 1: Создание спарс файла B из A===
+-rw-r--r-- 1 svetsec svetsec 4.1M Mar 30 19:29 fileA
+-rw-r--r-- 1 svetsec svetsec 4.1M Mar 30 19:29 fileB
+===Test 2: Сжатие файлов A и B===
+-rw-r--r-- 1 svetsec svetsec 4.1K Mar 30 19:29 fileA.gz
+-rw-r--r-- 1 svetsec svetsec 4.1K Mar 30 19:29 fileB.gz
+===Test 3: Распаковка из B.gz в C через main.c ===
+-rw-r--r-- 1 svetsec svetsec 4.1M Mar 30 19:29 fileC
+===Test 4: Копируем из A в D с размером блока по 100 байт===
+-rw-r--r-- 1 svetsec svetsec 4.1M Mar 30 19:29 fileD
+Размеры файлов:
+fileA: 4194305 bytes (24 blocks)
+fileA.gz: 4112 bytes (16 blocks)
+fileB: 4194305 bytes (24 blocks)
+fileB.gz: 4112 bytes (16 blocks)
+fileC: 4194305 bytes (24 blocks)
+fileD: 4194305 bytes (32 blocks)
+Все тесты прошли успешно!
